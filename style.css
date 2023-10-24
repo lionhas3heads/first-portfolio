@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+header {
+    display: flex;
+    /* flex properties */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* sizing */
+    width: 100vw;
+    background-color: black;
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    
+}
+/* pseudo-class to hover */
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    color: white;
+}
